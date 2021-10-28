@@ -3,7 +3,7 @@ const puppeteer = require('puppeteer');
 (async () => {
   const browser = await puppeteer.launch({ headless: false });
   const page = await browser.newPage();
-  await page.goto('https://app.mediafire.com/ctj8uqjj9ybqxS');
+  await page.goto('YOUR FOLDER LINK..! '); //Eg. https://app.mediafire.com/ctj8uqysdfbqxS
   await new Promise(r => setTimeout(r, 10000));
   
   var valid_links = [];
